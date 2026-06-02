@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Sports</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="container header-container">
+
+            <div class="logo-area">
+
+                <img src="logo.png" alt="Flow Sports" class="logo">
+
+            </div>
+
+            <nav>
+
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-texto">
+
+            <span class="tag">
+                FLOW SPORTS
+            </span>
+
+            <h2>
+                CHEGOU A<br>
+                NOVA<br>
+                COLEÇÃO 2026
+            </h2>
+
+            <p>
+                As novas camisas da Seleção Brasileira já estão disponíveis.
+                Garanta a sua antes que acabe.
+            </p>
+
+            <a href="#produtos" class="btn">
+                COMPRAR AGORA
+            </a>
+
+        </div>
+
+        <div class="hero-produtos">
+
+            <div class="produto-destaque">
+
+                <img src="camisa-azul.jpeg" alt="Camisa Seleção Azul">
+
+            </div>
+
+            <div class="produto-destaque">
+
+                <img src="camisa-amarela.jpeg" alt="Camisa Seleção Amarela">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BUSCA -->
+
+    <section class="search-section">
+
+        <div class="container">
+
+            <input type="text" id="pesquisa" placeholder="Buscar produto...">
+
+        </div>
+
+    </section>
+
+    <!-- PRODUTOS -->
+
+    <section id="produtos">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2>
+                    Produtos Disponíveis
+                </h2>
+
+                <p>
+                    Confira os produtos disponíveis na Flow Sports.
+                </p>
+
+            </div>
+
+            <div id="produtos-container" class="produtos-grid">
+
+                <!-- Produtos inseridos pelo script.js -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BENEFÍCIOS -->
+
+    <section class="beneficios">
+
+        <div class="container beneficios-grid">
+
+            <div class="beneficio-card">
+
+                <h3>⚡ Entrega Rápida</h3>
+
+                <p>
+                    Atendimento rápido e eficiente.
+                </p>
+
+            </div>
+
+            <div class="beneficio-card">
+
+                <h3>💰 Preço Justo</h3>
+
+                <p>
+                    Produtos com excelente custo-benefício.
+                </p>
+
+            </div>
+
+            <div class="beneficio-card">
+
+                <h3>⭐ Qualidade</h3>
+
+                <p>
+                    Produtos selecionados para você.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+
+    <section class="contato" id="contato">
+
+        <div class="container">
+
+            <h2>
+                Faça seu pedido
+            </h2>
+
+            <p>
+                Entre em contato pelo WhatsApp.
+            </p>
+
+            <a href="#produtos" class="btn-whatsapp">
+
+                Ver Produtos
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- CARRINHO FLUTUANTE -->
+
+    <div id="cart-button">
+
+        <span class="cart-icon">
+            🛒
+        </span>
+
+        <span id="cart-count">
+            0
+        </span>
+
+    </div>
+
+    <div id="cart-panel">
+
+        <div class="cart-header">
+
+            <h3>
+                Seu Carrinho
+            </h3>
+
+            <button id="close-cart">
+                ✕
+            </button>
+
+        </div>
+
+        <div id="cart-items">
+
+            <p class="cart-empty">
+                Seu carrinho está vazio.
+            </p>
+
+        </div>
+
+        <div class="cart-footer">
+
+            <button id="checkout-btn">
+                Finalizar Compra
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container">
+
+            <img src="logo.png" alt="Flow Sports" class="footer-logo">
+
+            <p>
+                © 2026 Flow Sports - Todos os direitos reservados.
+            </p>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
